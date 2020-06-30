@@ -1,0 +1,38 @@
+html {
+	font-family: Helvetica Neue;
+}
+.navbar {
+	background-color: black;
+	text-transform: uppercase;
+	font-size: 13px;
+	height: 110px;
+}
+
+.yellow-nav-text {
+	color: #ffb400;
+}
+
+.list-unstyled {
+	text-transform: uppercase;
+	font-size: 15px;
+	padding-top: 45px;
+}
+
+.footer-styled {
+	padding: 35px;
+}
+
+.social-icons {
+	padding-left: 15px;
+}
+
+.footer-yellow {
+	background-color: #ffb400;
+}
+
+.powered-by {
+	font-size: 10px;
+	padding-top: 5px;
+	align-content: center;
+	color: white;
+}
