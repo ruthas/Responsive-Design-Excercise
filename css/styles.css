@@ -33,7 +33,10 @@ html {
 	padding: 10px;
 	margin: 0;
 }
-
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
 .powered-by {
 	font-size: 15px;
 	margin: 0;
@@ -46,4 +49,10 @@ html {
 .navbar-nav .nav-link,
 .navbar-brand {
 	color: #ffb400;
+}
+.container {
+	width: 100%;
+	display: contents;
+	padding: 0;
+	margin: 0;
 }
