@@ -57,14 +57,26 @@ html {
 
 .contact-header {
 	background-color: #ffb400;
-	height: 100px;
+	height: 295px;
 	width: 100%;
+	padding-top: 118px;
+	text-align: center;
 }
-h1 {
+.heading {
 	font-size: 50px;
+	display: block;
 }
 @media (min-width: 576px) {
 	.container {
 		max-width: none;
 	}
+}
+.width-body {
+	width: 90%;
+	display: block;
+	margin: 40px auto;
+}
+.paragraph-text {
+	font-size: 23px;
+	color: #707070;
 }
