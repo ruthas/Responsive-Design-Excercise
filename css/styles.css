@@ -1,6 +1,10 @@
 html {
 	font-family: Helvetica Neue;
 }
+.container {
+	margin: 0;
+	padding: 0;
+}
 .navbar {
 	background-color: black;
 	text-transform: uppercase;
@@ -50,9 +54,17 @@ html {
 .navbar-brand {
 	color: #ffb400;
 }
-.container {
+
+.contact-header {
+	background-color: #ffb400;
+	height: 100px;
 	width: 100%;
-	display: contents;
-	padding: 0;
-	margin: 0;
+}
+h1 {
+	font-size: 50px;
+}
+@media (min-width: 576px) {
+	.container {
+		max-width: none;
+	}
 }
