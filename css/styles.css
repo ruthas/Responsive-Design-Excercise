@@ -5,11 +5,11 @@ html {
 	margin: 0;
 	padding: 0;
 }
+/* nav and footer css */
 .navbar {
 	background-color: black;
 	text-transform: uppercase;
 	font-size: 13px;
-	/* height: 110px; */
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -54,7 +54,12 @@ html {
 .navbar-brand {
 	color: #ffb400;
 }
-
+@media (min-width: 576px) {
+	.container {
+		max-width: none;
+	}
+}
+/* start of contact css */
 .contact-header {
 	background-color: #ffb400;
 	height: 295px;
@@ -66,11 +71,7 @@ html {
 	font-size: 50px;
 	display: block;
 }
-@media (min-width: 576px) {
-	.container {
-		max-width: none;
-	}
-}
+
 .width-body {
 	width: 90%;
 	display: block;
@@ -80,7 +81,7 @@ html {
 	padding: 20px;
 }
 .paragraph-text {
-	font-size: 23px;
+	font-size: 20px;
 	color: #707070;
 }
 .form {
@@ -123,4 +124,34 @@ html {
 }
 .white {
 	color: white;
+}
+.black {
+	color: black;
+}
+/* start of home css */
+.cover-image-home {
+	width: 100%;
+	padding-top: 160px;
+	text-align: center;
+	background: url(../assets/home-img1.png);
+	min-height: 650px;
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.home-icons {
+	width: 100%;
+	height: auto;
+}
+.heading-two {
+	font-size: 23px;
+	padding-bottom: 20px;
+}
+.margin-tp {
+	margin-top: 70px;
+}
+.padding-bt {
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
