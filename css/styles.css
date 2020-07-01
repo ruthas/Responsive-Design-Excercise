@@ -108,7 +108,7 @@ html {
 	background: transparent;
 	max-width: 1225px;
 }
-.contact-form-btn {
+.contact-form-btn, .calculate-form-btn {
 	border-radius: 30px;
 	padding: 10px 50px;
 	background-color: #ffb400;
@@ -181,7 +181,7 @@ html {
 	color: white;
 }
 
-.who-we-are-section {
+.who-we-are-section, .calculator-container {
 	padding: 50px;
 	padding-left: 150px;
 	padding-right: 150px;
@@ -247,3 +247,5 @@ html {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+
