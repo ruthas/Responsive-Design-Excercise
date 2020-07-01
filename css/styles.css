@@ -48,13 +48,16 @@ html {
 	color: #ffb400;
 }
 
+/* start of About page*/
 .about-cover-image {
-	background: transparent url('../assets/About-us.png') 0% 0% no-repeat
-		padding-box;
+	background: url('../assets/About-us.png');
 	background-position: center;
 	position: relative;
 	background-size: cover;
 	opacity: 1;
+	width: 100%;
+	min-height: 650px;
+	background-repeat: no-repeat;
 }
 
 .about-cover-text {
@@ -111,6 +114,7 @@ html {
 	font-size: 30px;
 	font-weight: bold;
 	color: #ffb400;
+	text-transform: uppercase;
 }
 
 .why-gig-eco-p {
