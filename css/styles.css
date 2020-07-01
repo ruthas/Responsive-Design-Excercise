@@ -154,6 +154,7 @@ html {
 .padding-bt {
 	padding-top: 40px;
 	padding-bottom: 30px;
+}
 @media (min-width: 576px) {
 	.container {
 		max-width: none;
@@ -161,7 +162,7 @@ html {
 }
 /* start of About page*/
 .about-cover-image {
-	background: url("../assets/About-us.png");
+	background: url(../assets/About-us.png);
 	background-position: center;
 	position: relative;
 	background-size: cover;
