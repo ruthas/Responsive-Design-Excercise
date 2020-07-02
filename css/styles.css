@@ -128,9 +128,17 @@ body,
 	padding-top: 40px;
 	padding-bottom: 30px;
 }
+.responsive-image-icon {
+	width: 130px;
+}
 @media (min-width: 576px) {
 	.container {
 		max-width: none;
+	}
+}
+@media (max-width: 1057px) {
+	.responsive-image-icon {
+		width: 90px;
 	}
 }
 /* start of About page*/
@@ -230,7 +238,7 @@ body,
 	}
 
 	.responsive-image-icon {
-		height: 150px;
+		width: 140px;
 	}
 
 	.margin-tp {
@@ -238,14 +246,13 @@ body,
 	}
 
 	.cover-image {
-		
 		padding-top: 80px;
 	}
 }
 
 @media (max-width: 576px) {
 	.responsive-image-icon {
-		height: 150px;
+		width: 140px;
 	}
 	.information {
 		text-align: center;
