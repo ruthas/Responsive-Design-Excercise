@@ -16,54 +16,35 @@
 		/>
 		<link rel="stylesheet" href="../css/styles.css" />
 
-		<style>
-			body,
-			.container-fluid {
-				padding: 0;
-				margin: 0;
-			}
-		</style>
-
 		<title>Setana</title>
 	</head>
 
 	<body>
-		<nav class="navbar navbar-expand-lg">
+		<nav class="navbar navbar-expand-lg ">
 			<a class="navbar-brand" href="../index.html">Placeholder</a>
-			<button
-				class="navbar-toggler navbar-dark bg-dark"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
+			<button class="navbar-toggler navbar-dark bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
 			</button>
+		  
+			<div class="collapse navbar-collapse " id="navbarSupportedContent">
+			  <ul class="navbar-nav justify-content-end">
+				<li class="nav-item active">
+				  <a class="nav-link" href="about-us.html">About us<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="calculator.html">Calculator</a>
+				  </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="contact-us.html">Contact us</a>
+				  </li>
+			  </ul>
+			  
+			</div>
+		  </nav>
+		<div class="container-fluid about-cover-image">
+			<h1 class="text-white about-cover-text">Who we are</h1>
+		</div>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav justify-content-end">
-					<li class="nav-item active">
-						<a class="nav-link" href="about-us.html"
-							>About us<span class="sr-only">(current)</span></a
-						>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="calculator.html">Calculator</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="contact-us.html">Contact us</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<div class="container-fluid">
-			<div class="cover-image about-cover-image">
-				<h1 class="text-white about-cover-text">Who we are</h1>
-			</div>
-			<!--
-		
 		<div class="container who-we-are-section">
 			<h2 class="yellow who-we-are-title">Who we are?</h2>
 			<p class="who-we-are-p">
@@ -95,36 +76,34 @@
 				</div>
 			</div>
 		</div>
+		
 
-		-->
-
+		<footer>
 			<div class="row">
-				<ul class="col-12 list-unstyled text-small footer-styled">
+				<ul class="col-6 list-unstyled text-small footer-styled">
+					<li><a class="text-muted" href="./about-us.html">About us</a></li>
 					<li>
-						<a class="text-muted" href="about-us.html">About us</a>
+						<a class="text-muted" href="./calculator.html">Calculator</a>
 					</li>
 					<li>
-						<a class="text-muted" href="calculator.html">Calculator</a>
-					</li>
-					<li>
-						<a class="text-muted" href="contact-us.html">Contact us</a>
+						<a class="text-muted" href="./contact.html">Contact us</a>
 					</li>
 				</ul>
 			</div>
-
-			<footer>
-				<div class="row footer-yellow">
-					<div class="col-12 social-icons information">
-						<img src="../assets/Icon simple-facebook.svg" class="social" />
-						<img src="../assets/Icon awesome-linkedin.svg" class="social" />
-						<img src="../assets/Icon simple-instagram.svg" class="social" />
-					</div>
-					<div class="col-12 information">
-						<p class="powered-by">Powered by Skywalk Innovations</p>
-					</div>
-				</div>
-			</footer>
+			<div class="container">
+			<div class="row footer-yellow ">
+        <div class="col-md-5 social-icons">
+          <img src="../assets/Icon simple-facebook.svg" class="social">
+          <img src="../assets/Icon awesome-linkedin.svg" class="social">
+          <img src="../assets/Icon simple-instagram.svg" class="social">
+          </div>
+          <div class="col col-md-4">
+            <p class="powered-by">Powered by Skywalk Innovations</p>
+          </div>
 		</div>
+	</div>
+    </div>
+		</footer>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
