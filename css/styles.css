@@ -1,6 +1,8 @@
 html {
 	font-family: Helvetica Neue;
 }
+
+body,
 .container {
 	margin: 0;
 	padding: 0;
@@ -54,11 +56,7 @@ html {
 .navbar-brand {
 	color: #ffb400;
 }
-@media (min-width: 576px) {
-	.container {
-		max-width: none;
-	}
-}
+
 /* start of contact css */
 .contact-header {
 	background-color: #ffb400;
@@ -108,7 +106,8 @@ html {
 	background: transparent;
 	max-width: 1225px;
 }
-.contact-form-btn, .calculate-form-btn {
+.contact-form-btn,
+.calculate-form-btn {
 	border-radius: 30px;
 	padding: 10px 50px;
 	background-color: #ffb400;
@@ -129,17 +128,7 @@ html {
 	color: black;
 }
 /* start of home css */
-.cover-image-home {
-	width: 100%;
-	padding-top: 160px;
-	text-align: center;
-	background: url(../assets/home-img1.png);
-	min-height: 650px;
 
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
 .home-icons {
 	width: 100%;
 	height: auto;
@@ -149,7 +138,7 @@ html {
 	padding-bottom: 20px;
 }
 .margin-tp {
-	margin-top: 70px;
+	margin-top: 20px;
 }
 .padding-bt {
 	padding-top: 40px;
@@ -161,16 +150,6 @@ html {
 	}
 }
 /* start of About page*/
-.about-cover-image {
-	background: url(../assets/About-us.png);
-	background-position: center;
-	position: relative;
-	background-size: cover;
-	opacity: 1;
-	width: 100%;
-	min-height: 650px;
-	background-repeat: no-repeat;
-}
 
 .about-cover-text {
 	text-align: center;
@@ -181,7 +160,8 @@ html {
 	color: white;
 }
 
-.who-we-are-section, .calculator-container {
+.who-we-are-section,
+.calculator-container {
 	padding: 50px;
 	padding-left: 150px;
 	padding-right: 150px;
@@ -236,16 +216,62 @@ html {
 	color: white;
 }
 
+.about-cover-image {
+	background: url(../assets/About-us.png);
+}
+
+.cover-image-home {
+	background: url(../assets/home-img1.png);
+}
+
 .cover-image-calculator {
+	background: url(../assets/calculate.png);
+}
+
+.cover-image {
 	width: 100%;
 	padding-top: 160px;
-	text-align: center;
-	background: url(../assets/calculate.png);
 	min-height: 650px;
-
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	position: relative;
+	opacity: 1;
 }
 
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 360px) {
+	.information {
+		text-align: center;
+	}
 
+	.responsive-image-icon {
+		height: 150px;
+	}
+
+	.margin-tp {
+		margin-top: 20px;
+	}
+
+	.cover-image {
+		padding-top: 80px;
+	}
+}
+
+@media (max-width: 576px) {
+	.responsive-image-icon {
+		height: 150px;
+	}
+
+	.information {
+		text-align: center;
+	}
+
+	.margin-tp {
+		margin-top: 20px;
+	}
+
+	.cover-image {
+		padding-top: 80px;
+	}
+}
