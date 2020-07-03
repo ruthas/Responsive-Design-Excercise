@@ -27,7 +27,8 @@ body,
 }
 
 .footer-styled {
-	padding: 35px;
+	padding-left: 35px;
+	margin-top: 40px;
 }
 
 .social {
@@ -93,9 +94,11 @@ body,
 .contact-form-btn,
 .calculate-form-btn {
 	border-radius: 30px;
-	padding: 10px 50px;
+	/* padding: 10px 50px; */
 	background-color: #ffb400;
 	color: white;
+}
+.space {
 	margin: 40px 0;
 }
 .contact-bottom {
@@ -214,6 +217,13 @@ body,
 	opacity: 1;
 }
 
+.responsive-image-icon-calculator {
+	width: 80px;
+}
+.float-sd {
+	display: block;
+	float: right;
+}
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 572px) {
 	.responsive-image-icon {
@@ -237,6 +247,9 @@ body,
 	}
 	.width-body {
 		width: 95%;
+	}
+	.sd {
+		text-align: justify;
 	}
 }
 
