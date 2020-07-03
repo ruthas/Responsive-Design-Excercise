@@ -238,9 +238,6 @@ body,
 	.width-body {
 		width: 95%;
 	}
-	.paragraph-text {
-		font-size: 23px;
-	}
 }
 
 @media (max-width: 360px) {
