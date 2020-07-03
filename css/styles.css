@@ -174,38 +174,21 @@ body,
 	opacity: 1;
 }
 
-.our-vision-title {
+.uppercase {
 	font-size: 25px;
 	color: black;
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
-.our-vision-p {
+.vision {
 	font-size: 35px;
 	color: #ffb400;
 	font-weight: bold;
 }
 
-.why-gig-eco-section {
-	background-color: black;
-	color: white;
-	width: 100%;
-	padding: 50px;
-	padding-left: 150px;
-	padding-right: 150px;
-}
-
-.why-gig-eco-title {
-	font-size: 30px;
-	font-weight: bold;
-	color: #ffb400;
-	text-transform: uppercase;
-}
-
-.why-gig-eco-p {
-	font-size: 21px;
-	color: white;
+.black-padding{
+	padding: 0 45px;
 }
 
 .about-cover-image {
@@ -247,7 +230,13 @@ body,
 
 	.cover-image {
 		padding-top: 80px;
+		min-height: 350px !important;
 	}
+
+	.black-padding{
+		padding: 0;
+	}
+
 }
 
 @media (max-width: 576px) {
